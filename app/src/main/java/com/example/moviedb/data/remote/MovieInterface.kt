@@ -11,6 +11,7 @@ import retrofit2.http.Path
 
 
 
+
     @GET("movie/popular?api_key=ea82a49cc47915bb9477d6032839ae06")
     suspend fun getmovies() :Call<Popular>
      companion object {
